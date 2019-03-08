@@ -1,4 +1,5 @@
 require "bundler/setup"
+require "rails/engine"
 require "footable/legacy/rails"
 
 RSpec.configure do |config|
