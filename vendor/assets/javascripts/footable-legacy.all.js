@@ -1,0 +1,9 @@
+//= require footable
+//= require footable.bookmarkable
+//= require footable.filter
+//= require footable.grid
+//= require footable.memory
+//= require footable.paginate
+//= require footable.plugin.template
+//= require footable.sort
+//= require footable.striping
