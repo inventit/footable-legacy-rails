@@ -1,14 +1,14 @@
 @font-face {
   font-family: 'footable';
-  src: url(<%= asset_path('footable.eot') %>);
-  src: url(<%= "#{asset_path('footable.eot')}?#iefix" %>) format('embedded-opentype'), url(<%= asset_path('footable.woff') %>) format('woff'), url(<%= asset_path('footable.ttf') %>) format('truetype'), url(<%= asset_path('footable.svg#footable') %>) format('svg');
+  src: url(<%= asset_path('footable-legacy/footable.eot') %>);
+  src: url(<%= "#{asset_path('footable-legacy/footable.eot')}?#iefix" %>) format('footable-legacy/embedded-opentype'), url(<%= asset_path('footable-legacy/footable.woff') %>) format('woff'), url(<%= asset_path('footable-legacy/footable.ttf') %>) format('truetype'), url(<%= asset_path('footable-legacy/footable.svg#footable') %>) format('svg');
   font-weight: normal;
   font-style: normal;
 }
 @media screen and (-webkit-min-device-pixel-ratio: 0) {
   @font-face {
     font-family: 'footable';
-    src: url(<%= "#{asset_path('footable.svg')}#footable" %>) format('svg');
+    src: url(<%= "#{asset_path('footable-legacy/footable.svg')}#footable" %>) format('svg');
     font-weight: normal;
     font-style: normal;
   }
