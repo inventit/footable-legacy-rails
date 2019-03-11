@@ -22,11 +22,11 @@ Or install it yourself as:
 
 In your `application.js` you will need to add this line:
 
-    //= require footable-legacy.all
+    //= require footable-legacy/footable-legacy.all
    
 And in your `application.scss` you will need to add this line:
 
-    @import "footable.core";
+    @import "footable-legacy/footable.core";
 
 ## Contributing
 
